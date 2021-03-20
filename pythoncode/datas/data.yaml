@@ -1,0 +1,28 @@
+- "hogwarts"
+- hurry
+- 'none'
+- ~
+
+#- a
+#- b
+#- c
+# [a,b,c]
+#-
+#  - a
+#  - b
+#  - c
+# [[a,b,c]]
+
+#age: '20'
+#gender: male
+#name: hogwarts
+
+#companies:
+#    -
+#        id: 1
+#        name: company1
+#        price: 200W
+#    -
+#        id: 2
+#        name: company2
+#        price: 500W

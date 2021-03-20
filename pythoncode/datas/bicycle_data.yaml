@@ -1,0 +1,17 @@
+data1: &e1
+  env: "测试环境"
+  battery: 10
+  km: 120
+
+data2: &e2
+  env: "开发环境"
+  battery: 10
+  km: 100
+
+data3: &e3
+  env: "线上环境"
+  battery: 10
+  km: 99
+
+default:
+  <<: *e3
