@@ -2,6 +2,7 @@
 __author__ = 'hogwarts_xixi'
 __time__ = '2021/3/20 3:06 下午'
 """
+import yaml
 
 """
 写一个 Bicycle (自行车)类，
@@ -20,7 +21,6 @@ __time__ = '2021/3/20 3:06 下午'
 class Bicycle:
     def run(self, km):
         print(f"骑行了 {km} km")
-
 
 # 电动车
 class EBicycle(Bicycle):
@@ -46,5 +46,13 @@ class EBicycle(Bicycle):
             print(f"骑行了 {km} km")
 
 
-e1 = EBicycle(10)
-e1.run(120)
+with open('../datas/bicycle_data.yaml', encoding='utf-8') as f:
+    datas = yaml.safe_load(f)
+data = datas['default']
+
+print(data)
+print(type(data))
+
+print(data['env'])
+e1 = EBicycle(data['battery'])
+e1.run(data['km'])

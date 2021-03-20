@@ -35,8 +35,11 @@ class Person:
     def have_money(self):
         return self.__money
 
-    def get_money(self):
+    def __get_money(self):
         return self.__money + 1000
+
+    def get_get_money(self):
+        self.__get_money()
 
 
 class Funny(Person):
