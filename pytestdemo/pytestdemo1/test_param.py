@@ -16,7 +16,7 @@ def test_add(a, b, expect):
     assert add(a, b) == expect
 
 
-def test_add1():
+def test_add1(login):
     assert add(0.1, 0.2) == 0.3
 
 
