@@ -4,8 +4,10 @@ __time__ = '2021/3/27 4:03 下午'
 """
 import pytest
 import yaml
+import sys
 
-from pytestdemo.calculator import Calculator
+# print(sys.path)
+from calculator import Calculator
 
 
 @pytest.fixture(scope="session", autouse=True)
@@ -32,7 +34,7 @@ def get_calc():
 
 
 def get_datas():
-    with open("./datas/calc.yaml") as f:
+    with open("/Users/juanxu/Documents/霍格沃兹培训/测试demo/HogwartsFIS04/pytestdemo/datas/calc.yaml") as f:
         datas = yaml.safe_load(f)
     return datas
 
