@@ -1,0 +1,11 @@
+[ {
+  "uid" : "e8db1a8471a2fd9c",
+  "name" : "test_department_scene",
+  "time" : {
+    "start" : 1622278934539,
+    "stop" : 1622278936270,
+    "duration" : 1731
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

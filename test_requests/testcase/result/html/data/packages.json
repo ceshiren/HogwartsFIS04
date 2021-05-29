@@ -1,0 +1,21 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "test_department",
+    "children" : [ {
+      "name" : "test_department_scene",
+      "uid" : "e8db1a8471a2fd9c",
+      "parentUid" : "f0ad87f490b37a2aba9d93e7bd70ceda",
+      "status" : "passed",
+      "time" : {
+        "start" : 1622278934539,
+        "stop" : 1622278936270,
+        "duration" : 1731
+      },
+      "flaky" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "f0ad87f490b37a2aba9d93e7bd70ceda"
+  } ],
+  "name" : "packages"
+}

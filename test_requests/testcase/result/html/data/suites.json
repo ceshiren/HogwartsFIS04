@@ -1,0 +1,25 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "children" : [ {
+    "name" : "test_department",
+    "children" : [ {
+      "name" : "TestDepartment",
+      "children" : [ {
+        "name" : "test_department_scene",
+        "uid" : "e8db1a8471a2fd9c",
+        "parentUid" : "ff29ede8ff8ad7ba37ae98b1612c3474",
+        "status" : "passed",
+        "time" : {
+          "start" : 1622278934539,
+          "stop" : 1622278936270,
+          "duration" : 1731
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ff29ede8ff8ad7ba37ae98b1612c3474"
+    } ],
+    "uid" : "6c6eff7e10a204b9e95bf0acd4ee260b"
+  } ],
+  "name" : "suites"
+}

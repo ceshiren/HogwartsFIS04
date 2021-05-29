@@ -1,0 +1,3 @@
+{'errcode': 0, 'errmsg': 'ok', 'department': [{'id': 1, 'name': 'Hogwarts', 'parentid': 0, 'order': 100000000}, {'id': 4, 'name': '广州研发中心2', 'parentid': 1, 'order': 1, 'name_en': 'RDGZ'}]}
+{'errcode': 0, 'errmsg': 'ok', 'department': [{'id': 1, 'name': 'Hogwarts', 'parentid': 0, 'order': 100000000}, {'id': 4, 'name': '广州研发中心-update', 'parentid': 1, 'order': 1, 'name_en': 'RDGZ'}]}
+{'errcode': 0, 'errmsg': 'ok', 'department': [{'id': 1, 'name': 'Hogwarts', 'parentid': 0, 'order': 100000000}]}

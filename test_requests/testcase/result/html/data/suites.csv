@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sat May 29 17:02:14 CST 2021","Sat May 29 17:02:16 CST 2021","1731","","test_department","TestDepartment","","","test_department_scene","
+        部门增删改查场景测试
+        "

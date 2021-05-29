@@ -1,0 +1,25 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "feier.lan",
+    "children" : [ {
+      "name" : "85962-MainThread",
+      "children" : [ {
+        "name" : "test_department_scene",
+        "uid" : "e8db1a8471a2fd9c",
+        "parentUid" : "20394245d594c07d0ac93a5fdb1d3843",
+        "status" : "passed",
+        "time" : {
+          "start" : 1622278934539,
+          "stop" : 1622278936270,
+          "duration" : 1731
+        },
+        "flaky" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "20394245d594c07d0ac93a5fdb1d3843"
+    } ],
+    "uid" : "cd97a0de79a1d8259536cc5b67b8cf15"
+  } ],
+  "name" : "timeline"
+}
