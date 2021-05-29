@@ -25,6 +25,7 @@ class TestToken:
 
         # 发出 get 请求
         r = requests.get(url, params=params)
+        print(type(r.text))
         # 查看响应信息
         print(r.json())
 
